@@ -44,6 +44,7 @@ Not all functions in a library can be called by the outside, apparently. It is l
 
 The keywords to use that specifies exportable functions are `extern "C"` and `__declspec(dllexport)`.
 The minimum example is:
+
 ```c
 #define EXPORT_API __declspec(dllexport)
 extern "C" {
@@ -57,6 +58,7 @@ A good practice is to design a singleton class representing a controller, so tha
 
 ### Unity Side Scripting
 In order to use the exposed function of native libraries, function signatures have to be defined, so that C# finds the function to call inside native libraries. Such function definitions are like this:
+
 ```csharp
 using System.Runtime.InteropServices;            // system reference
 public static class HelloWorldFunctions {
@@ -71,6 +73,7 @@ In HoloLensARToolKit project, the native function entries are defined in `ARTool
 
 ### Function Parameters
 As you may found out, there are some strange code around parameter definitions, like this:
+
 ```csharp
 [DllImport("ARToolKitUWP")]
 [return: MarshalAsAttribute(UnmanagedType.I1)]
@@ -83,6 +86,7 @@ It is called **Marshaling**. According to Wikipedia,
 In the case of C# interfacing native code, the data exchange between managed environment and unmanaged environment only happens at the time when native functions are called and returned. The processing by native code happens in between, but the computation does not affect the managed memory. Therefore, we only need to perform such memory transformation when native functions are called and returned. Marshaling does the trick.
 
 For instance, for the above function, the native code looks like this:
+
 ```cpp
 EXPORT_API bool aruwpGetARToolKitVersion(char *buffer, int length);
 ```
