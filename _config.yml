@@ -4,23 +4,21 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
+title:            Long Qian
+tagline:          'Long Qian'
+description:      'Reality augmented.<br>My personal blog of tech and life.'
+url:              https://longqian.me/
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Long Qian'
+  url:            https://longqian.me/
 
 paginate:         5
+google_analytics: 'UA-91425204-2'
+emailme:          mailto:lqian@jhu.edu
 
-# Custom vars
-version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/qian256/qian256.github.io/
