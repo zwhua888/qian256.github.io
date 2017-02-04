@@ -17,8 +17,9 @@ author:
 
 paginate:         5
 google_analytics: 'UA-91425204-2'
-emailme:          mailto:lqian@jhu.edu
+emailme:          mailto:lqian8@jhu.edu
 
+gems:             [jekyll-paginate]
 
 github:
   repo:           https://github.com/qian256/qian256.github.io/
