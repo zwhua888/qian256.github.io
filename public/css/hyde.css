@@ -84,13 +84,13 @@ html {
     text-align: right;
   }
 }
-@media (min-width: 80rem) {
+@media (min-width: 96rem) {
   .sidebar {
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
-    width: 36rem;
+    width: 44rem;
     text-align: right;
   }
 }
@@ -166,9 +166,9 @@ a.sidebar-nav-item:focus {
     margin-right: 4rem;
   }
 }
-@media (min-width: 80rem) {
+@media (min-width: 96rem) {
   .content {
-    margin-left: 38rem;
+    margin-left: 46rem;
     margin-right: 4rem;
   }
 }
@@ -197,10 +197,10 @@ a.sidebar-nav-item:focus {
     margin-right: 26rem;
   }
 }
-@media (min-width: 80rem) {
+@media (min-width: 96rem) {
   .layout-reverse .content {
     margin-left: 4rem;
-    margin-right: 38rem;
+    margin-right: 46rem;
   }
 }
 
