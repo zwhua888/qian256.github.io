@@ -22,6 +22,7 @@ I am a Ph.D student at the Department of Computer Science at [Johns Hopkins Univ
 
 
 ### Professional Experience
+
 #### Teaching Assistant
 * Intro Programming for Scientists & Engineers, Fall 2015 [@Course](http://www.cs.jhu.edu/~joanne/cs112/)
 * Robot Devices, Kinematics, Dynamics, and Control, Fall 2016 [@Course](https://limbs.lcsr.jhu.edu/people/cowan/courses/)
