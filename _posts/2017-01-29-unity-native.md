@@ -37,7 +37,7 @@ In the case of **[HoloLensARToolKit](https://github.com/qian256/HoloLensARToolKi
 
 Let's take a look at the dependency of our `ARToolKitUWP.dll`:
 
-![Dependency](https://cloud.githubusercontent.com/assets/8185982/22236808/0f832b1a-e1d6-11e6-9e65-e5f7286c662f.png)
+<img src="https://cloud.githubusercontent.com/assets/8185982/22236808/0f832b1a-e1d6-11e6-9e65-e5f7286c662f.png" alt="Dependency" style="width:60%"/>
 
 Basically, in order to successfully link the native library on the target platform, these dependencies must be satisfied on the given device. If your library depends on other third-party libraries, then these third-party libraries should be compatible with the specific platform as well, and make sure they are placed in the searching directory of runtime linker. 
 If you are not sure about the directories, just place them at the same location as the .exe or .dll files.
