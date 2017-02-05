@@ -6,6 +6,7 @@ title: Unity Native Programming
 Unity is great in terms of the ease to create graphics applications, the wide compatibility with different platforms (thanks to [Mono](http://www.mono-project.com/)), and its pioneering role in the current fast growing AR/VR market. However, most programmers are more comfortable with C++, and Linux, than C# and Windows. As a result, many existing great libraries, especially in the field of computer vision, are C++ projects. Examples include [OpenCV](http://opencv.org/), [ARToolKit](http://artoolkit.org/), etc.
 
 In order to reuse native libraries in Unity projects, here are two options:
+
 - re-implement the algorithm in C# (Javascript)
 - find a way to interface native libraries.
 
@@ -14,6 +15,7 @@ I hope this wiki page will make your life easier when you are faced with this qu
 
 ### Managed and Unmanaged Library
 Unity builds managed libraries, that is to say, the libraries and applications built by Unity are managed by Common Language Runtime (thanks to Mono again). According to the [Wikipedia page](https://en.wikipedia.org/wiki/Common_Language_Runtime):
+
 > The CLR provides additional services including memory management, type safety, exception handling, garbage collection, security and thread management.
 
 Great! C++ code can be built with CLR as well, as the name "Common Language Runtime" suggests. Therefore, one good way to go is to build your native code using CLR, put your library in Unity asset path, and use it as if it is written in C#.
@@ -24,6 +26,7 @@ Great! C++ code can be built with CLR as well, as the name "Common Language Runt
 Let us look at the native C++ code first.
 
 You need and only need to answer the following two questions:
+
 - What is the desired running platform?
 - What are the functions that you want to call in C# managed code?
 
@@ -81,6 +84,7 @@ public static extern bool aruwpGetARToolKitVersion([MarshalAs(UnmanagedType.LPSt
 ```
 
 It is called **Marshaling**. According to Wikipedia, 
+
 > In computer science, marshalling or marshaling is the process of transforming the memory representation of an object to a data format suitable for storage or transmission, and it is typically used when data must be moved between different parts of a computer program or from one program to another.
 
 In the case of C# interfacing native code, the data exchange between managed environment and unmanaged environment only happens at the time when native functions are called and returned. The processing by native code happens in between, but the computation does not affect the managed memory. Therefore, we only need to perform such memory transformation when native functions are called and returned. Marshaling does the trick.

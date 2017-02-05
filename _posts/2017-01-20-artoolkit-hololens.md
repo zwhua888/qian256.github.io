@@ -36,6 +36,7 @@ The repository is called [HoloLensARToolKit]() on Github.
 
 The above shows the screenshot of HoloLens taken via HoloLens Device Portal.
 There are several things here to pay attention to:
+
 * The image plane visualizes the current camera feed.
 * Two markers are used: the traditional ARToolKit Hiro and Kanji marker.
 * The cubes on top represents the rotation of the tracked markers.
