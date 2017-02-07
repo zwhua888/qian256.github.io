@@ -11,6 +11,9 @@ There have been lots of discussion about streaming on HoloLens. Here is a demo o
 <iframe width="100%" style="height:20rem" src="https://www.youtube.com/embed/RJ2GBQWfjvg" frameborder="0" allowfullscreen></iframe>
 </p>
 
+This is the soccer match between Barcelona and Atlético Madrid today. The screen on the right is the real monitor, and the left one is a virtual screen showing streamed video. 
+The application runs at a reasonably frame rate and resolution (20fps with 896x594 frame resolution). Video is taken via [HoloLens Device Portal](https://developer.microsoft.com/en-us/windows/holographic/using_the_windows_device_portal).
+
 ### Implementation
 
 This application is implemented using the following toolset:
@@ -29,7 +32,6 @@ This application is implemented using the following toolset:
 * Network connection
 
 
-The application runs at a reasonably frame rate and resolution (20fps with 896x594 resolution).
 
 
 Thanks for reading! <img class="inline" src="/public/LQ144x144.png" alt="LQ" style="width:1.5rem;height:1.5rem;" />
