@@ -3,7 +3,7 @@ layout: post
 title: Jekyll with Three.js
 ---
 
-Here is an example of embedding [three.js](https://github.com/mrdoob/three.js/) and [dat.gui](https://github.com/dataarts/dat.gui) on a Jekyll blog. It is working after a few attempts. (I admit I am fairly new to js)
+Here is an example of embedding [three.js](https://github.com/mrdoob/three.js/) and [dat.gui](https://github.com/dataarts/dat.gui) on a Jekyll blog. It is working after a few attempts. 
 
 ### Demo
 
@@ -12,7 +12,7 @@ canvas { width: inherit; position: relative; top: 0;}
 </style>
 
 <div id='canvas-holder' style="position:relative; width: inherit;">
-	<div id="dat-gui-holder" style="position: absolute; top: 0em; right: 0em;z-index: 1;" />
+  <div id="dat-gui-holder" style="position: absolute; top: 0em; right: 0em;z-index: 1;" ></div>
 </div>
 
 <!--Load three.js-->
@@ -72,8 +72,8 @@ The combination of canvas holder and dat.gui holder can be specified like this:
 <style>
   canvas { width: inherit; position: relative; top: 0;}
 </style>
-<div id='canvas-holder' style="position:relative; width: inherit;">
-  <div id="dat-gui-holder" style="position:absolute; top: 0em; right: 0em;z-index:1;" />
+<div id='canvas-holder' style="position:relative; width:inherit;">
+  <div id="dat-gui-holder" style="position:absolute; top:0em; right:0em; z-index:1;"></div>
 </div>
 {% endhighlight %}
 
@@ -111,5 +111,7 @@ canvasHolder.appendChild( renderer.domElement );
 
 ### Finally
 
-Blogs should be **COOL**. <img class="inline" src="/public/LQ144x144.png" alt="LQ" style="width:1.5rem;height:1.5rem;" />
+Blogs should be **COOL**. 
+
+Thanks! <img class="inline" src="/public/LQ144x144.png" alt="LQ" style="width:1.5rem;height:1.5rem;" />
 

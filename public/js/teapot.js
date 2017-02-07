@@ -312,11 +312,6 @@ window.onload = function() {
     var customContainer = document.getElementById('dat-gui-holder').append(gui.domElement);
 };
 
-window.onresize = function(event) {
-    init();
-    animate();
-};
-
 
 
 // Hurray!
