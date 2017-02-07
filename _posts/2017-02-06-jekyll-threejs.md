@@ -8,6 +8,7 @@ Here is an example of embedding [three.js](https://github.com/mrdoob/three.js/) 
 ### Demo
 
 <style>
+.highlight-left {margin-left: 0}
 canvas { width: inherit; position: relative; top: 0;}
 </style>
 
@@ -75,7 +76,7 @@ The combination of canvas holder and dat.gui holder can be specified like this:
 <div id='canvas-holder' style="position:relative; width:inherit;">
   <div id="dat-gui-holder" style="position:absolute; top:0em; right:0em; z-index:1;"></div>
 </div>
-{% endhighlight %}
+{% endhighlight %}{: .highlight-left }
 
 The dat.gui holder has two interesting style definitions:
 
@@ -93,7 +94,7 @@ It is highly inspired by this [example](http://codepen.io/eternalminerals/pen/av
 var gui = new dat.GUI( { autoPlace: false } );
 // Definition of GUI elements goes here
 document.getElementById('dat-gui-holder').append(gui.domElement);
-{% endhighlight %}
+{% endhighlight %}{: .highlight-left }
 
 In addition, the canvas is put inside canvas holder :
 
@@ -106,7 +107,7 @@ canvasHolder.clientHeight = height;
 renderer = new THREE.WebGLRenderer();
 renderer.setSize( width, height );
 canvasHolder.appendChild( renderer.domElement );
-{% endhighlight %}
+{% endhighlight %}{: .highlight-left }
 
 
 ### Finally
