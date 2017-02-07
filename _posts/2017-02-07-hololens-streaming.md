@@ -7,7 +7,9 @@ There have been lots of discussion about streaming on HoloLens. Here is a demo o
 
 ### Demo
 
-<iframe width="100%" height="20rem" src="https://www.youtube.com/embed/RJ2GBQWfjvg" frameborder="0" allowfullscreen></iframe>
+<p class="full-width">
+<iframe width="100%" style="height:20rem" src="https://www.youtube.com/embed/RJ2GBQWfjvg" frameborder="0" allowfullscreen></iframe>
+</p>
 
 ### Implementation
 
