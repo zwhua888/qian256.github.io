@@ -310,11 +310,13 @@ window.onload = function() {
     prevTess = 0;
 
     var customContainer = document.getElementById('dat-gui-holder').append(gui.domElement);
+
+    
+    // Hurray!
+    init();
+    animate();
 };
 
 
 
-// Hurray!
-init();
-animate();
 
