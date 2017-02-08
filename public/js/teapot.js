@@ -309,7 +309,8 @@ window.onload = function() {
     prevNum = 1;
     prevTess = 0;
 
-    var customContainer = document.getElementById('dat-gui-holder').append(gui.domElement);
+    var datguiHolder = document.getElementById('dat-gui-holder');
+    var customContainer = datguiHolder.append(gui.domElement);
 
     
     // Hurray!
