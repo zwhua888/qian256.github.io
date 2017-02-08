@@ -16,10 +16,10 @@ author:
   url:            https://longqian.me/
 
 paginate:         5
-google_analytics: 'UA-91425204-2'
+google_analytics: 'UA-91425204-1'
 emailme:          mailto:lqian8@jhu.edu
 
-gems:             [jekyll-paginate]
+gems:             [jekyll-paginate, jekyll-seo-tag]
 
 github:
   repo:           https://github.com/qian256/qian256.github.io/
