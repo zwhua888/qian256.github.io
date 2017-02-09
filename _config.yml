@@ -25,9 +25,5 @@ gems:             [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
 github:
   repo:           https://github.com/qian256/qian256.github.io/
 
-
-tag_page_layout:  tags
-tag_page_dir: 	  tag
-tag_page:         '/tags/'
 tags:
 
