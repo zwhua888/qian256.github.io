@@ -1,6 +1,7 @@
 ---
 layout: post
 title: HoloLens File Transfer
+description: Interacting with HoloLens application via file IO. A useful trick for communicating with HoloLens.
 ---
 
 Tranferring file to and from HoloLens seems non-trivial. It is written in HoloLens official document about [saving and sending your files](https://developer.microsoft.com/en-us/windows/holographic/saving_and_finding_your_files):
