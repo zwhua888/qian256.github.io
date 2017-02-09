@@ -16,7 +16,7 @@ author:
   url:            http://longqian.me/
 
 paginate:         5
-google_analytics: 'UA-91425204-1'
+google_analytics: 'UA-91425204-3'
 emailme:          mailto:lqian8@jhu.edu
 
 gems:             [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]

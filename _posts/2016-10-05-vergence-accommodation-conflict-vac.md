@@ -49,7 +49,7 @@ If we took a look at two different categories of HMDs: stereoscopic and multisco
 
 #### Light Field Optics
 
-[Light field]() is a methods to model light as vector, which has both intensity and direction. Two parallel LCD panels can be used to create light field, so that the display is multiscopic. This work came from MIT Media Lab: **Content-Adaptive Parallax Barriers: Optimizing Dual-Layer 3D Displays using Low-Rank Light Field Factorization**.
+[Light field](https://en.wikipedia.org/wiki/Light_field) is a methods to model light as vector, which has both intensity and direction. Two parallel LCD panels can be used to create light field, so that the display is multiscopic. This work came from MIT Media Lab: **Content-Adaptive Parallax Barriers: Optimizing Dual-Layer 3D Displays using Low-Rank Light Field Factorization**.
 
 <p class="full-width"><img src="/public/image/parallex-barrier.png" alt="parallex barrier" style="width:80%;" align="right"/></p>
 

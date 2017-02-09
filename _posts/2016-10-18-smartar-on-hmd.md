@@ -35,7 +35,7 @@ The object recognition algorithm here is very basic bag-of-words algorithm. A da
 Thanks to the simplicity of Bag-of-Words algorithm, the recognition of known objects in this application is real-time.
 
 ### Marker Tracking
-[Aruco]() is used to track markers in the scene. In order to correctly overlay the graphics on top of the marker seen by the user, an optical see-through display calibration is needed. Here, the traditional [Single Point Active Alignment Method]() is applied. Rendering is performed using OpenGL ES in Android OS. The result looks like this:
+[Aruco](https://www.uco.es/investiga/grupos/ava/node/26) is used to track markers in the scene. In order to correctly overlay the graphics on top of the marker seen by the user, an optical see-through display calibration is needed. Here, the traditional [Single Point Active Alignment Method](http://ieeexplore.ieee.org/document/880938/) is applied. Rendering is performed using OpenGL ES in Android OS. The result looks like this:
 <p class="full-width"><img src="/public/image/smartar-marker.png" alt="SmartAR marker tracking" style="width:60%;" align="right"/></p>
 
 Both geometric and context augmentation are provided at the same time. The performance is real-time as well.

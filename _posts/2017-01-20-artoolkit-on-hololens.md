@@ -7,7 +7,7 @@ title: ARToolKit on HoloLens
 
 ### Why not Vuforia?
 
-[Vuforia]() released it support for HoloLens several month ago with Vuforia 6. Vuforia has its feature-based tracking, extended tracking mode, simple 3D model tracking, etc. However, there is several potential problems with Vuforia, from a developer point of view.
+[Vuforia](https://vuforia.com/) released it support for HoloLens several month ago with Vuforia 6. Vuforia has its feature-based tracking, extended tracking mode, simple 3D model tracking, etc. However, there is several potential problems with Vuforia, from a developer point of view.
 
 * Limited update rate, not intended for fast moving object.
 * Lack of accuracy.
@@ -16,14 +16,14 @@ title: ARToolKit on HoloLens
 
 ### ARToolKit
 
-Since [ARToolKit]() has served AR/VR for more than 10 years, and it is open-source, it would be nice to have it running on HoloLens. The obstacles towards this goal are quite clear as well:
+Since [ARToolKit](http://artoolkit.org/) has served AR/VR for more than 10 years, and it is open-source, it would be nice to have it running on HoloLens. The obstacles towards this goal are quite clear as well:
 
 * Universal Windows has a whole different set of tools and run-time libraries. The dependencies of existing ARToolKit does not exist on UWP, such as pthreads, video libraries, opencv.
 * ARToolKit is written in native C/C++ code, and an additional wrapper is needed for development on Unity, which is recommended for HoloLens. (If you are not good at Direct3D, and Windows App)
 
 **Luckily, after spending about a week on this, I successfully get some pieces of code written, and actually make ARToolKit runs on HoloLens, at about 40 fps.**
 
-The repository is called [HoloLensARToolKit]() on Github.
+The repository is called [HoloLensARToolKit](https://github.com/qian256/HoloLensARToolKit) on Github.
 
 ### Demo
 

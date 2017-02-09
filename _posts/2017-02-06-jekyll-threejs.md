@@ -93,7 +93,7 @@ It is highly inspired by this [example](http://codepen.io/eternalminerals/pen/av
 {% highlight javascript %}
 var gui = new dat.GUI( { autoPlace: false } );
 // Definition of GUI elements goes here
-document.getElementById('dat-gui-holder').append(gui.domElement);
+document.getElementById('dat-gui-holder').appendChild(gui.domElement);
 {% endhighlight %}{: .highlight-left }
 
 In addition, the canvas is put inside canvas holder :
