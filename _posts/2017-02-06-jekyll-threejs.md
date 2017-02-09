@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Jekyll with Three.js
+description: Demonstration of embedding a three.js rendered canvas in Jekyll blog, plus dat.giui control elements - exploding the teapots!
+tags: threejs webgl javascript jekyll teapot-explotion
 ---
 
 Here is an example of embedding [three.js](https://github.com/mrdoob/three.js/) and [dat.gui](https://github.com/dataarts/dat.gui) on a Jekyll blog. It is working after a few attempts. 

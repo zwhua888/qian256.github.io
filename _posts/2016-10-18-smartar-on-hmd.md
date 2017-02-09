@@ -1,6 +1,8 @@
 ---
 layout: post
 title: SmartAR on HMD
+description: My course project of Computer Vision at Johns Hopkins University. We used Moverio BT-200 to do marker tracking and object recognition. 
+tags: computer-vision augmented-reality marker-tracking networking object-recognition aruco robot-operating-system
 ---
 
 This is a re-post of my project for [EN.600.661 Computer Vision](http://cirl.lcsr.jhu.edu/Vision_Syllabus) at Johns Hopkins University. Team members include me and [Felix Jonathan](https://github.com/fjonath1).

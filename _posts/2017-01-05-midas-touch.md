@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Midas Touch Problem in Eye Tracking
+description: An interesting metaphor in eye tracking literature.
+tags: midas-touch eye-tracking gaze
 ---
 
 This is an interesting metaphor in the eye tracking literature.

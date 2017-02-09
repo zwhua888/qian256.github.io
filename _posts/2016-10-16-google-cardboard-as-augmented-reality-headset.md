@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Google Cardboard as "Augmented Reality" Headset
+description: Google Cardbard is general used for virtual reality (VR). However, it is not impossible to simulate augmented reality (AR) experience. Here is an experiment.
+tags: google-cardboard augmented-reality unity3d shader
 ---
 
 Google Virtual Reality headset evolved from Cardboard v1, to [Cardboard v2](https://vr.google.com/cardboard/), and to the most recent and elegant [Daydream](https://vr.google.com/daydream/). Daydream supports limited devices, thus is excluded in the discussion here. For Cardboard v1 and v2, there have been a few discussion about the difference between them. As a VR / AR developer working with both headset, I looked at something different

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: ISMAR 2016 Highlight
+description: A blog giving you some insights about what is happening in the field of augmented reality research, by looking at the highlights of ISMAR (IEEE International Symposium on Mixed and Augmented Reality) 2016, at Merida, Mexico.
+tags: ismar conference augmented-reality
 ---
 
 

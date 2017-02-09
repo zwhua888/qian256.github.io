@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Research Talk at Tongji University
+description: A summary of the research talk at Tongji University
+tags: augmented-reality tongji-university shanghai research-talk
 ---
 
 Thanks to Dr. Peng Qi, I was invited to deliver a research talk at [Tongji University](http://www.tongji.edu.cn/english/), Shanghai last week. Augmented Reality is a generally new area for researchers in China. The response from the students of Tongji was quite rewarding for me.

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Android Debugging Utilities
+description: Some useful code snippets to use Android Debugging Bridge when developing Android applications, also with Unity3d.
+tags: android unity3d debugging bash
 ---
 
 Here are some useful tips when working with Android, based on [Android Debugging Bridge](https://developer.android.com/studio/command-line/adb.html):

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Migration to Jekyll
+description: Announcement of migration to Jekyll.
+tags: jekyll wordpress blog markdown hyde
 ---
 
 I have used [wordpress.com](https://wordpress.com/) for blogging and hosting. After a few month of using it, I decided to migrate my personal blog to Jekyll and host it using Github pages. There are several reasons behind that:

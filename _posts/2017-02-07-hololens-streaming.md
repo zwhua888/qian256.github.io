@@ -1,6 +1,8 @@
 ---
 layout: post
 title: HoloLens Video Streaming
+description: An applicaiton to stream video output to HoloLens, and to display the virtual video in 3D environment. TCP communication and JPEG compression are applied.
+tags: hololens augmented-reality video streaming tcp networking unity3d
 ---
 
 There have been lots of discussion about streaming on HoloLens. Here is a demo of my implementation.
