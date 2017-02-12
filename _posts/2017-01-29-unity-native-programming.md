@@ -2,7 +2,7 @@
 layout: post
 title: Unity Native Programming
 description: Tutorials on how to use native C++ code, or library in a Unity application. It is how HoloLensARToolKit project is built.
-tags: unity3d hololens c++ c# native-programming hololens-artoolkit
+tags: unity3d hololens cpp csharp native-programming hololens-artoolkit
 ---
 
 Unity is great in terms of the ease to create graphics applications, the wide compatibility with different platforms (thanks to [Mono](http://www.mono-project.com/)), and its pioneering role in the current fast growing AR/VR market. However, most programmers are more comfortable with C++, and Linux, than C# and Windows. As a result, many existing great libraries, especially in the field of computer vision, are C++ projects. Examples include [OpenCV](http://opencv.org/), [ARToolKit](http://artoolkit.org/), etc.

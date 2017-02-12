@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: artoolkit"
-tag: artoolkit
+title: "Tag: cpp"
+tag: cpp
 robots: noindex
 ---
