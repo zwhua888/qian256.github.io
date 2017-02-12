@@ -140,6 +140,7 @@ Create a folder called `tag` in the root folder, and create a markdown file `hol
 ```
 ---
 layout: tagpage
+title: "Tag: hololens"
 tag: hololens
 ---
 ```
