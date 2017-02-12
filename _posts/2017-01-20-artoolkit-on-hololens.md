@@ -29,6 +29,13 @@ The repository is called [HoloLensARToolKit](https://github.com/qian256/HoloLens
 
 ### Demo
 
+I captured this mixed reality video in HoloLens Device Portal:
+
+<p class="full-width">
+<iframe width="100%" style="height:20rem" src="https://www.youtube.com/embed/cMzNyJkr3X0" frameborder="0" allowfullscreen></iframe>
+</p>
+
+
 #### Hiro and Kanji
 
 <p class="full-width">
