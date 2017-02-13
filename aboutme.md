@@ -9,7 +9,7 @@ title: About Me
 <blockquote class="full-width"><p>Augmented Reality Programmer, Researcher and Enthusiast</p></blockquote>
 
 
-I am a Ph.D student at the Department of Computer Science at [Johns Hopkins University](https://www.jhu.edu/). My research focuses are **Augmented Reality** and **Robotics**, with emphasis on both scientific and engineering aspects. My supervisors are [Dr. Peter Kazanzides](https://www.cs.jhu.edu/faculty/peter-kazanzides/) and [Dr. Nassir Navab](https://www.cs.jhu.edu/faculty/nassir-navab/). Prior to my Ph.D studies, I received B.E. at [Tsinghua University](http://www.tsinghua.edu.cn/), China.
+I am (<span lang="zh">钱隆</span>) a Ph.D student at the Department of Computer Science at [Johns Hopkins University](https://www.jhu.edu/). My research focuses are **Augmented Reality** and **Robotics**, with emphasis on both scientific and engineering aspects. My supervisors are [Dr. Peter Kazanzides](https://www.cs.jhu.edu/faculty/peter-kazanzides/) and [Dr. Nassir Navab](https://www.cs.jhu.edu/faculty/nassir-navab/). Prior to my Ph.D studies, I received B.E. at [Tsinghua University](http://www.tsinghua.edu.cn/), China.
 
 ### Education
 * B.E. Electronics Engineering, Tsinghua University, China, 2011 – 2015
@@ -38,4 +38,12 @@ I am a Ph.D student at the Department of Computer Science at [Johns Hopkins Univ
 
 #### Internship
 * Data Analyst and Consultant, Accenture Beijing, 2015
+* Intuitive Surgical Inc, Sunnyvale, 2017 Upcoming
+* Google Inc, Mountain View, 2017 Upcoming
+
+
+### Other Activities
+
+I watch soccer a lot, and I am a fan of [FC Barcelona](https://www.fcbarcelona.com/).
+I also enjoy playing tennis and swimming.
 
