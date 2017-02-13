@@ -33,7 +33,7 @@ According to Dr. Davison, the future of SLAM is:
 
 The first two are basically research problem, and the later two, are clearly the need driven by the general market. During the conference, I talked with some mobile software companies; they showed extreme interest for AR applications, and eyeing for the academia advances, especially SLAM technology.
 
-He also talked about how new hardware can facilitate SLAM technologies, e.g. [DVS](inilabs.com/products/dynamic-vision-sensors/), [DAVIS](https://inilabs.com/products/dynamic-vision-sensors/) and IPU, and the possibility of integrating deep learning to SLAM.
+He also talked about how new hardware can facilitate SLAM technologies, e.g. [DVS](https://inilabs.com/products/dynamic-vision-sensors/), [DAVIS](https://inilabs.com/products/dynamic-vision-sensors/) and IPU, and the possibility of integrating deep learning to SLAM.
 
 ### Interesting Papers
 
