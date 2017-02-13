@@ -14,7 +14,7 @@
 /*
  * cwTeXKai (Chinese Traditional) http://www.google.com/fonts/earlyaccess
  */
-@font-face {
+/*@font-face {
   font-family: 'cwTeXKai';
   font-style: normal;
   font-weight: 500;
@@ -23,7 +23,7 @@
        url(/public/css/fonts-local/cwTeXKai-zhonly.woff2) format('woff2'),
        url(/public/css/fonts-local/cwTeXKai-zhonly.woff) format('woff'),
        url(/public/css/fonts-local/cwTeXKai-zhonly.ttf) format('truetype');
-}
+}*/
 /*
  * cwTeXHei (Chinese-traditional) http://www.google.com/fonts/earlyaccess
  */
