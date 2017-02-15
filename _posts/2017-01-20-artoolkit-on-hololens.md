@@ -47,6 +47,7 @@ This video is taken on HoloLens Device Portal, also known as **Mixed Reality Cap
 
 #### More Screenshots
 
+<span>
 <table border=0>
 <tr>
 	<td align="center" width="33%"><img src="http://longqian.me/public/image/artoolkit-hololens-single.png" /></td>
@@ -59,7 +60,7 @@ This video is taken on HoloLens Device Portal, also known as **Mixed Reality Cap
 	<td align="center">Multi Marker</td>
 </tr>
 </table>
-
+</span>
 
 ### Finally
 
