@@ -19,7 +19,7 @@ The above is a screenshot of a Unity transformation. The x, y, z axis directions
 
 
 ### Coordinate System of ARToolKit
-[ARToolKit](http://artoolkit.org/) uses **right-hand coordinate systems**. Since [OpenGL](https://www.opengl.org/)is right-handed as well, it is very comfortable to visualize the tracking result of ARToolKit by OpenGL.
+[ARToolKit](http://artoolkit.org/) uses **right-hand coordinate systems**. Since [OpenGL](https://www.opengl.org/) is right-handed as well, it is very comfortable to visualize the tracking result of ARToolKit by OpenGL.
 
 In the official Unity package of ARToolKit, [arunity](https://github.com/artoolkit/arunity5), there exists a utility function
 
