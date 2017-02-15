@@ -2,7 +2,7 @@
 layout: post
 title: ARToolKit on HoloLens
 description: Demonstration of implementing ARToolKit on HoloLens. The capabilit of using the locatable camera of HoloLens to do fiducial marker tracking is exploited. 
-tags: unity3d hololens hololens-artoolkit artoolkit vuforia marker-tracking
+tags: unity3d hololens hololens-artoolkit artoolkit vuforia marker-tracking augmented-reality
 ---
 
 [HoloLens](https://www.microsoft.com/microsoft-hololens/en-us) is fascinating in terms of holographic display and in-room localization, but the capability of the front-facing camera ([locatable camera](https://developer.microsoft.com/en-us/windows/holographic/locatable_camera)) is not fully utilized for potential augmented reality applications.
