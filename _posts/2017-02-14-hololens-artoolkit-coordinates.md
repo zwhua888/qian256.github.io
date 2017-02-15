@@ -62,7 +62,10 @@ Multi-matrix marker is useful for robust tracking, thus is much more useful for 
 The transformation field in the configuration file is also left-handed, which is different from original ARToolKit. That is to say, you have to modify the marker configuration file you used before.
 
 For example, for a **multi-barcode-4x3** configuration, the coordinate system of the multi-marker looks like this:
-![Multi Matrix Marker Coordinates](http://longqian.me/public/image/multi-coord.png)
+
+<p class="full-width">
+<img src="http://longqian.me/public/image/multi-coord.png" width="70%" align="right"/>
+</p>
 
 Thus, the transformation field of marker 0 (top-left), will be:
 
