@@ -27,47 +27,44 @@ Since [ARToolKit](http://artoolkit.org/) has served AR/VR for more than 10 years
 
 The repository is called [HoloLensARToolKit](https://github.com/qian256/HoloLensARToolKit) on Github.
 
-### Demo
+### Demos
 
-I captured this mixed reality video in HoloLens Device Portal:
+#### Samples of HoloLensARToolKit
 
-<p class="full-width">
-<iframe width="100%" style="height:20rem" src="https://www.youtube.com/embed/cMzNyJkr3X0" frameborder="0" allowfullscreen></iframe>
-</p>
-
-
-#### Hiro and Kanji
+There are three samples of HoloLensARToolKit, each representing a certain kind of marker that is supported: single marker, cube marker and multi marker.
 
 <p class="full-width">
-	<img src="https://cloud.githubusercontent.com/assets/8185982/22130806/ade7e8ac-de7c-11e6-82ff-d1b31caef17f.jpg" alt="Hiro and Kanji" style="width:35.3%;padding:0.5rem" align="right"/>
-	<img src="https://cloud.githubusercontent.com/assets/8185982/22130805/ade4ac96-de7c-11e6-91fb-a3be5ad5d559.jpg" alt="Hiro and Kanji" style="width:35%;padding:0.5rem" align="right"/>
+<iframe width="100%" style="height:24rem" src="https://www.youtube.com/embed/PqT90QfgP-U" frameborder="0" allowfullscreen></iframe>
 </p>
 
-The above shows the screenshot of HoloLens taken via HoloLens Device Portal.
-There are several things here to pay attention to:
+#### Minion on the Cube
 
-* The image plane visualizes the current camera feed.
-* Two markers are used: the traditional ARToolKit Hiro and Kanji marker.
-* The cubes on top represents the rotation of the tracked markers.
-* Frame rate of tracking and rendering are both about 40 fps.
-* Confidence values of tracking are shown in the top right corner.
+<p class="full-width">
+<iframe width="100%" style="height:24rem" src="https://www.youtube.com/embed/cMzNyJkr3X0" frameborder="0" allowfullscreen></iframe>
+</p>
 
-#### Multi Marker
+This video is taken on HoloLens Device Portal, also known as **Mixed Reality Capture**. You might have noticed the lag between the video that is captured and update in the rendering. Because the tracking is able to complete within one rendering cycle, the lag is **probably** due to the post-rendering 3D warping of HoloLens.
 
-<p class="full-width"><img src="https://cloud.githubusercontent.com/assets/8185982/22189679/0a6f8a6e-e0ec-11e6-8563-ecae01e7d294.jpg" alt="Multi Marker" style="width:60%;" align="right"/></p>
+#### More Screenshots
 
-ARToolKit-style multi marker pattern is supported. Individual cubes represent the tracking result of each barcode marker, and the while plane represents the tracking result of the multi marker as whole.
-
-
-#### Cube Marker
-
-
-<p class="full-width"><img src="https://cloud.githubusercontent.com/assets/8185982/22190907/907d311c-e0f4-11e6-84b4-91b47586b008.jpg" alt="Cube Marker" style="width:60%;" align="right"/></p>
-
-As a special case of multi marker pattern, the cube marker is supported on HoloLensARToolKit as well.
+<table border=0>
+<tr>
+	<td align="center" width="33%"><img src="http://longqian.me/public/image/artoolkit-hololens-single.png" /></td>
+	<td align="center" width="33%"><img src="http://longqian.me/public/image/artoolkit-hololens-cube.png" /></td>
+	<td align="center" width="33%"><img src="http://longqian.me/public/image/artoolkit-hololens-multi.png" /></td>
+</tr>
+<tr>
+	<td align="center">Single Marker</td>
+	<td align="center">Cube Marker</td>
+	<td align="center">Multi Marker</td>
+</tr>
+</table>
 
 
 ### Finally
+
+You can access more articles describing the implementation details of [**HoloLensARToolKit**](https://github.com/qian256/HoloLensARToolKit) in my blog, simply clicking on the tag: <a class="no-underline" href="http://longqian.me/tag/hololens/"><code class="highligher-rouge"><nobr>hololens-artoolkit</nobr></code></a>.
+
 With ARToolKit integrated with HoloLens, many more augmented reality applications are possible. If you are AR/VR developer, you must see what I mean here.
 
 Thanks for reading. <img class="inline" src="/public/LQ144x144.png" alt="LQ" style="width:1.5rem;height:1.5rem;" />
