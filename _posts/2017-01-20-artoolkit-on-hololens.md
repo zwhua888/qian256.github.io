@@ -25,7 +25,7 @@ Since [ARToolKit](http://artoolkit.org/) has served AR/VR for more than 10 years
 
 **Luckily, after spending about a week on this, I successfully get some pieces of code written, and actually make ARToolKit runs on HoloLens, at about 40 fps.**
 
-The repository is called [HoloLensARToolKit](https://github.com/qian256/HoloLensARToolKit) on Github.
+The repository is called **[HoloLensARToolKit](https://github.com/qian256/HoloLensARToolKit)** on Github.
 
 ### Demos
 
@@ -47,19 +47,28 @@ This video is taken on HoloLens Device Portal, also known as **Mixed Reality Cap
 
 #### More Screenshots
 
-<span><table border=0><tr>
-<td align="center" width="33%"><img src="http://longqian.me/public/image/artoolkit-hololens-single.png" /></td>
-<td align="center" width="33%"><img src="http://longqian.me/public/image/artoolkit-hololens-cube.png" /></td>
-<td align="center" width="33%"><img src="http://longqian.me/public/image/artoolkit-hololens-multi.png" /></td>
-</tr><tr>
-<td align="center">Single Marker</td>
-<td align="center">Cube Marker</td>
-<td align="center">Multi Marker</td>
-</tr></table></span>
+- Single Marker
+
+<p class="full-width">
+<img src="http://longqian.me/public/image/artoolkit-hololens-single.png" width="70%" align="right"/>
+</p>
+
+- Cube Marker
+
+<p class="full-width">
+<img src="http://longqian.me/public/image/artoolkit-hololens-cube.png" width="70%" align="right"/>
+</p>
+
+- Multi Marker
+
+<p class="full-width">
+<img src="http://longqian.me/public/image/artoolkit-hololens-multi.png" width="70%" align="right"/>
+</p>
+
 
 ### Finally
 
-You can access more articles describing the implementation details of [**HoloLensARToolKit**](https://github.com/qian256/HoloLensARToolKit) in my blog, simply clicking on the tag: <a class="no-underline" href="http://longqian.me/tag/hololens/"><code class="highligher-rouge"><nobr>hololens-artoolkit</nobr></code></a>.
+You can access more articles describing the implementation details of **[HoloLensARToolKit](https://github.com/qian256/HoloLensARToolKit)** in my blog, simply clicking on the tag: <a class="no-underline" href="http://longqian.me/tag/hololens/"><code class="highligher-rouge"><nobr>hololens-artoolkit</nobr></code></a>.
 
 With ARToolKit integrated with HoloLens, many more augmented reality applications are possible. If you are AR/VR developer, you must see what I mean here.
 
