@@ -11,7 +11,7 @@ This post is part of documentation of **[HoloLensARToolKit](https://github.com/q
 
 `ARUWPController.cs` is one of the main scripts used in **[HoloLensARToolKit](https://github.com/qian256/HoloLensARToolKit)**. In this post, the options of this script is listed and discussed, along with common usecases.
 
-> Each Unity project using HoloLensARToolKit package must and must only have one ARUWPController component.
+> Each Unity project using HoloLensARToolKit package **must and must only have one** ARUWPController component.
 
 ARUWPController is very similar to ARController in ARToolKit, one of the major difference is that ARUWPController targets only at Universal Windows Platform, while ARController also handles Android, iOS, standalone and even editor. Therefore, ARUWPController has fewer attributes than ARController in general.
 
