@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Coorindate Systems in HoloLensARToolKit
-description: Documentation of project HoloLensARToolKit: the coordinate systems used in HoloLensARToolKit, including the difference between unity3d coordinates, ARToolKit coordinates and HoloLensARToolKit coordinates.
+description: Documentation of project HoloLensARToolKit, the coordinate systems used in HoloLensARToolKit, including the difference between unity3d coordinates, ARToolKit coordinates and HoloLensARToolKit coordinates.
 tags: hololens hololens-artoolkit artoolkit unity3d marker-tracking coordinate-system documentation augmented-reality
 ---
 
@@ -10,7 +10,9 @@ This post is part of documentation of **[HoloLensARToolKit](https://github.com/q
 ### Coordinate System of Unity3D
 [Unity3D](https://unity3d.com/) uses **left-hand coordinate systems** to define transformations. Yes, it is.
 
-![Unity Coordinate System](http://longqian.me/public/image/unity-coord.png)
+<p class="full-width">
+<img src="http://longqian.me/public/image/unity-coord.png" width="70%" align="right"/>
+</p>
 
 The above is a screenshot of a Unity transformation. The x, y, z axis directions are visualized with different colors, and are following left-land rules. In addition, rotation along axis is applied **clockwise**, unlike counter-clockwise in right-hand coordinate systems. If you are accustomed to right-hand coordinate systems as I do, please pay more attention when working with raw 4x4 matrices.
 
@@ -36,13 +38,17 @@ In this project, left-hand coordinate system is applied **everywhere**. That mea
 Hiro marker and Kanji marker are examples of single pattern marker. They are defined using binary files.
 
 The coordinate system associated with a single pattern marker looks like this:
-![Single Pattern Marker Coordinates](http://longqian.me/public/image/hiro-coord.png)
 
+<p class="full-width">
+<img src="http://longqian.me/public/image/hiro-coord.png" width="70%" align="right"/>
+</p>
 
 #### Single Matrix Marker
 Single matrix marker is pre-defined in ARToolKit. User is only required to provide the ID and type of matrix code associated when using them in applications. The coordinate system associated with a matrix marker looks like this:
-![Single Matrix Marker Coordinates](http://longqian.me/public/image/matrix-coord.png)
 
+<p class="full-width">
+<img src="http://longqian.me/public/image/matrix-coord.png" width="70%" align="right"/>
+</p>
 
 #### Multi Matrix Marker
 Multi matrix marker is defined by a configuration file, that contains
@@ -59,17 +65,21 @@ For example, for a **multi-barcode-4x3** configuration, the coordinate system of
 ![Multi Matrix Marker Coordinates](http://longqian.me/public/image/multi-coord.png)
 
 Thus, the transformation field of marker 0 (top-left), will be:
+
 ```
 1.0  0.0  0.0  -105.00
 0.0  1.0  0.0  -70
 0.0  0.0  1.0  0.0
 ```
+
 instead of
+
 ```
 1.0  0.0  0.0  -105.00
 0.0  1.0  0.0  70
 0.0  0.0  1.0  0.0
 ```
+
 in original ARToolKit.
 
 ### Finally
