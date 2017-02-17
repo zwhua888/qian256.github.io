@@ -44,6 +44,6 @@ I am (<span lang="zh">钱隆</span>) a Ph.D student at the Department of Compute
 
 ### Other Activities
 
-I watch soccer a lot, and I am a fan of [FC Barcelona](https://www.fcbarcelona.com/).
-I also enjoy playing tennis and swimming.
+I watch :soccer: a lot, and I am a fan of [FC Barcelona](https://www.fcbarcelona.com/).
+I also enjoy playing :tennis: and :swimmer:.
 
