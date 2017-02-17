@@ -1,7 +1,8 @@
 ---
 layout: post
 title: ARToolKit on HoloLens
-description: Demonstration of implementing ARToolKit on HoloLens. The capabilit of using the locatable camera of HoloLens to do fiducial marker tracking is exploited. 
+description: Demonstration of implementing ARToolKit on HoloLens. The capabilit of using the locatable camera of HoloLens to do fiducial marker tracking is exploited.
+pined: yes
 tags: unity3d hololens hololens-artoolkit artoolkit vuforia marker-tracking augmented-reality
 ---
 
