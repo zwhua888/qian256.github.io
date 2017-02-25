@@ -2,7 +2,7 @@
 layout: post
 title: Eigen in Unity
 description: Eigen provides very good support for linear algebra algorithms, but is in general working in C++. On the other hand, Unity game engine does not have ready-to-use packages for linear algebra needs, and only has scripting support for C# and Javascript. This post demonstrates how to use Eigen in Unity.
-tags: unity3d eigen native-programming csharp cpp hololens
+tags: unity3d eigen native-programming csharp cpp
 ---
 
 Unity3d has very basic linear algebra support, for example, in [Matrix4x4](https://docs.unity3d.com/ScriptReference/Matrix4x4.html), there are simple multiplication functions with vectors and matrices, however, functions like **inverse** and **eigen value** are not included. **[Eigen](http://eigen.tuxfamily.org)** is the perfect candidate of performing complicated linear algebra algorithms, for example, **Singluar Value Decomposition**, **Sparse Matrix**, **Linear Eqaution Solver**.
