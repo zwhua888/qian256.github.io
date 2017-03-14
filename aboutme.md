@@ -18,11 +18,12 @@ I am (<span lang="zh">钱隆</span>) a Ph.D student at the Department of Compute
 
 
 ### Publication
+* **Long Qian**, Alexander Barthel, Alex Johnson, Greg Osgood, Peter Kazanzides, Nassir Navab and Bernhard Fuerst. *Comparison of Optical See-Through Head-Mounted Displays for Surgical Interventions with Object-Anchored 2D-Display*. 2017 IPCAI.
+* Ehsan Azimi, **Long Qian**, Peter Kazanzides, Nassir Navab. *Robust Optical See-Through Head-Mounted Display Calibration:Taking Anisotropic Nature of User Interaction Errors into Account*. Accepted at IEEEVR 2017.
+* Jianren Wang, **Long Qian**, Ehsan Azimi, Peter Kazanzides. *Prioritization and Static Error Compensation for Multi-camera Collaborative Tracking in Augmented Reality*. Accepted at IEEEVR 2017.
 * **Long Qian**, Alexander Winkler, Bernhard Fuerst, Peter Kazanzides and Nassir Navab. *Reduction of Interaction Space in Single Point Active Alignment Method for Optical See-Through Head-Mounted Display Calibration*. 2016 ISMAR [@Paper](/public/document/paper-reduction-of-interaction-space.pdf) [@Poster](/public/document/poster-reduction-of-interaction-space.pdf)
 * **Long Qian**, Alexander Winkler, Bernhard Fuerst, Peter Kazanzides and Nassir Navab. *Modeling Physical Structure as Additional Constraints for Stereoscopic Optical See-Through Head-Mounted Display Calibration*. 2016 ISMAR [@Paper](/public/document/paper-modeling-physical-structure.pdf) [@Poster](/public/document/poster-modeling-physical-structure.pdf)
 * **Long Qian**, Zihan Chen, and Peter Kazanzides. *An Ethernet to FireWire bridge for real-time control of the da Vinci Research Kit (dVRK)*. 2015 ETFA [@Paper](/public/document/paper-an-ethernet-to-firewire-bridge.pdf)
-* Ehsan Azimi, **Long Qian**, Peter Kazanzides, Nassir Navab. *Robust Optical See-Through Head-Mounted Display Calibration:Taking Anisotropic Nature of User Interaction Errors into Account*. Accepted at IEEEVR 2017.
-* Jianren Wang, **Long Qian**, Ehsan Azimi, Peter Kazanzides. *Prioritization and Static Error Compensation for Multi-camera Collaborative Tracking in Augmented Reality*. Accepted at IEEEVR 2017.
 
 
 ### Professional Experience
