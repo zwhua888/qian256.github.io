@@ -18,12 +18,13 @@ I am (<span lang="zh">钱隆</span>) a Ph.D student at the Department of Compute
 
 
 ### Publication
+* **Long Qian**, Ehsan Azimi, Peter Kazanzides and Nassir Navab. *Comprehensive Tracker Based Display Calibration for Holographic Optical See-Through Head-Mounted Display*. Submitted to 2017 ISMAR.
 * **Long Qian**, Alexander Barthel, Alex Johnson, Greg Osgood, Peter Kazanzides, Nassir Navab and Bernhard Fuerst. *Comparison of Optical See-Through Head-Mounted Displays for Surgical Interventions with Object-Anchored 2D-Display*. 2017 IPCAI.
-* Ehsan Azimi, **Long Qian**, Peter Kazanzides, Nassir Navab. *Robust Optical See-Through Head-Mounted Display Calibration:Taking Anisotropic Nature of User Interaction Errors into Account*. Accepted at IEEEVR 2017.
-* Jianren Wang, **Long Qian**, Ehsan Azimi, Peter Kazanzides. *Prioritization and Static Error Compensation for Multi-camera Collaborative Tracking in Augmented Reality*. Accepted at IEEEVR 2017.
-* **Long Qian**, Alexander Winkler, Bernhard Fuerst, Peter Kazanzides and Nassir Navab. *Reduction of Interaction Space in Single Point Active Alignment Method for Optical See-Through Head-Mounted Display Calibration*. 2016 ISMAR [@Paper](/public/document/paper-reduction-of-interaction-space.pdf) [@Poster](/public/document/poster-reduction-of-interaction-space.pdf)
-* **Long Qian**, Alexander Winkler, Bernhard Fuerst, Peter Kazanzides and Nassir Navab. *Modeling Physical Structure as Additional Constraints for Stereoscopic Optical See-Through Head-Mounted Display Calibration*. 2016 ISMAR [@Paper](/public/document/paper-modeling-physical-structure.pdf) [@Poster](/public/document/poster-modeling-physical-structure.pdf)
-* **Long Qian**, Zihan Chen, and Peter Kazanzides. *An Ethernet to FireWire bridge for real-time control of the da Vinci Research Kit (dVRK)*. 2015 ETFA [@Paper](/public/document/paper-an-ethernet-to-firewire-bridge.pdf)
+* Ehsan Azimi, **Long Qian**, Peter Kazanzides and Nassir Navab. *Robust Optical See-Through Head-Mounted Display Calibration:Taking Anisotropic Nature of User Interaction Errors into Account*. 2017 IEEE VR.
+* Jianren Wang, **Long Qian**, Ehsan Azimi and Peter Kazanzides. *Prioritization and Static Error Compensation for Multi-camera Collaborative Tracking in Augmented Reality*. 2017 IEEE VR.
+* **Long Qian**, Alexander Winkler, Bernhard Fuerst, Peter Kazanzides and Nassir Navab. *Reduction of Interaction Space in Single Point Active Alignment Method for Optical See-Through Head-Mounted Display Calibration*. 2016 ISMAR [@Paper](http://ieeexplore.ieee.org/document/7836487/) [@Poster](/public/document/poster-reduction-of-interaction-space.pdf)
+* **Long Qian**, Alexander Winkler, Bernhard Fuerst, Peter Kazanzides and Nassir Navab. *Modeling Physical Structure as Additional Constraints for Stereoscopic Optical See-Through Head-Mounted Display Calibration*. 2016 ISMAR [@Paper](http://ieeexplore.ieee.org/document/7836486/) [@Poster](/public/document/poster-modeling-physical-structure.pdf)
+* **Long Qian**, Zihan Chen, and Peter Kazanzides. *An Ethernet to FireWire bridge for real-time control of the da Vinci Research Kit (dVRK)*. 2015 ETFA [@Paper](http://ieeexplore.ieee.org/document/7301489/)
 
 
 ### Professional Experience
@@ -45,6 +46,6 @@ I am (<span lang="zh">钱隆</span>) a Ph.D student at the Department of Compute
 
 ### Other Activities
 
-I watch :soccer: a lot, and I am a fan of [FC Barcelona](https://www.fcbarcelona.com/).
-I also enjoy playing :tennis: and :swimmer:.
+I watch <i class="em em-soccer"></i> a lot, and I am a fan of [FC Barcelona](https://www.fcbarcelona.com/).
+I also enjoy playing <i class="em em-tennis"></i> and <i class="em em-swimmer"></i>.
 
