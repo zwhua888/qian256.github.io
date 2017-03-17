@@ -1,6 +1,0 @@
-# robotstxt.org/
-
-User-agent: *
-
-Sitemap: http://longqian.me//sitemap.xml
-Disallow: [http://longqian.me//tag/, http://longqian.me//page*]
