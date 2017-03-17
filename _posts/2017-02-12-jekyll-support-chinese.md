@@ -136,5 +136,4 @@ blockquote p:lang(zh){
 
 中文的技术资源和英文的技术资源几乎是两个平行世界。网上也鲜有在英文Jekyll模板中添加中文语言支持的例子。希望这篇文章对你有所帮助！
 
-感谢阅读！ <img class="inline" src="/public/LQ144x144.png" alt="LQ" style="width:1.5rem;height:1.5rem;" />
-
+感谢阅读！  <i class="em em-lq"></i>

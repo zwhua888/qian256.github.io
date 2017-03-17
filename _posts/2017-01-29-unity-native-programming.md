@@ -101,4 +101,4 @@ The bool type of C++ is marshaled to the bool type of C#, and the char buffer se
 
 
 
-Thanks for reading and happy coding. <img class="inline" src="/public/LQ144x144.png" alt="LQ" style="width:1.5rem;height:1.5rem;" />
+Thanks for reading and happy coding. <i class="em em-lq"></i>

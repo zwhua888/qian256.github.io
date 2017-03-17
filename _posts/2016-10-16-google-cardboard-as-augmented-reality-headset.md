@@ -93,4 +93,4 @@ Google VR SDK is not used here.
 * Discussion about Cardboard v1 and v2 on [Briztech](https://vr.briztech.co.uk/cardboard-comparison.html).
 
 
-Thanks for reading! <img class="inline" src="/public/LQ144x144.png" alt="LQ" style="width:1.5rem;height:1.5rem;" />
+Thanks for reading!  <i class="em em-lq"></i>

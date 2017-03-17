@@ -14,4 +14,4 @@ I have used [wordpress.com](https://wordpress.com/) for blogging and hosting. Af
 
 As a programmer, these reasons were sufficient for such a decision. I picked the popular theme [hyde](http://hyde.getpoole.com/) as my basic theme, and customized the style a little bit.
 
-And here it is! <img class="inline" src="/public/LQ144x144.png" alt="LQ" style="width:1.5rem;height:1.5rem;" />
+And here it is! <i class="em em-lq"></i>

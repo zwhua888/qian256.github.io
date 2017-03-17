@@ -77,5 +77,5 @@ Eigen is perfect for native programming because it is header-only and is potenti
 
 
 
-Thanks for reading! <img class="inline" src="/public/LQ144x144.png" alt="LQ" style="width:1.5rem;height:1.5rem;" />
+Thanks for reading!  <i class="em em-lq"></i>
 

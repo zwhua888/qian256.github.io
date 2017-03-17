@@ -42,4 +42,4 @@ Thanks to the simplicity of Bag-of-Words algorithm, the recognition of known obj
 
 Both geometric and context augmentation are provided at the same time. The performance is real-time as well.
 
-Thanks! <img class="inline" src="/public/LQ144x144.png" alt="LQ" style="width:1.5rem;height:1.5rem;" />
+Thanks!  <i class="em em-lq"></i>

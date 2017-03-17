@@ -192,5 +192,5 @@ Done! Happy blogging!
 
 If you like this post, please **STAR** [my repository](https://github.com/qian256/qian256.github.io) to motivate me!
 
-Thanks for reading! <img class="inline" src="/public/LQ144x144.png" alt="LQ" style="width:1.5rem;height:1.5rem;" />
+Thanks for reading!  <i class="em em-lq"></i>
 

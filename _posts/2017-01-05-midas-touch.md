@@ -11,4 +11,4 @@ King Midas is able to turn everything he touches into gold. It does not actually
 
 When eye gaze is used an interaction media interfacing with computer systems, the basic function of eye, to look and to perceive visual information, should be distinguished from those deliberate interaction with the computer systems. Otherwise, it becomes **Midas Touch**.
 
-Thanks! <img class="inline" src="/public/LQ144x144.png" alt="LQ" style="width:1.5rem;height:1.5rem;" />
+Thanks!  <i class="em em-lq"></i>

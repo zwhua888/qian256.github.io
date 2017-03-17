@@ -116,5 +116,5 @@ canvasHolder.appendChild( renderer.domElement );
 
 Blogs should be **COOL**. 
 
-Thanks! <img class="inline" src="/public/LQ144x144.png" alt="LQ" style="width:1.5rem;height:1.5rem;" />
+Thanks! <i class="em em-lq"></i>
 

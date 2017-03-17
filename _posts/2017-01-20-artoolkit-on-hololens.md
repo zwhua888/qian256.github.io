@@ -73,4 +73,4 @@ You can access more articles describing the implementation details of **[HoloLen
 
 With ARToolKit integrated with HoloLens, many more augmented reality applications are possible. If you are AR/VR developer, you must see what I mean here.
 
-Thanks for reading. <img class="inline" src="/public/LQ144x144.png" alt="LQ" style="width:1.5rem;height:1.5rem;" />
+Thanks for reading. <i class="em em-lq"></i>

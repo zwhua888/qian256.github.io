@@ -11,4 +11,4 @@ In the paper of 2000, **Optical Versus Video See-Through Head-Mounted Displays i
 
 16 years have passed, we are still far from that. Keep walking.
 
-Thanks! <img class="inline" src="/public/LQ144x144.png" alt="LQ" style="width:1.5rem;height:1.5rem;" />
+Thanks!  <i class="em em-lq"></i>

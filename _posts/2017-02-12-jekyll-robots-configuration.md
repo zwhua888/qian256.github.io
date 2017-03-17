@@ -49,5 +49,5 @@ In the layout of the head section, usually at `_includes/head.html`, the followi
 
 Then, **jekyll serve!**
 
-Thanks for reading! <img class="inline" src="/public/LQ144x144.png" alt="LQ" style="width:1.5rem;height:1.5rem;" />
+Thanks for reading!  <i class="em em-lq"></i>
 

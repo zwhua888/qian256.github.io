@@ -11,4 +11,4 @@ The news [article](http://cse.tongji.edu.cn/Data/ShowView/0d12e407-2197-425b-82f
 
 <p class="full-width"><img src="/public/image/tongji.png" alt="Tongji" style="width:60%;" align="right"/></p>
 
-Thanks! <img class="inline" src="/public/LQ144x144.png" alt="LQ" style="width:1.5rem;height:1.5rem;" />
+Thanks!  <i class="em em-lq"></i>
