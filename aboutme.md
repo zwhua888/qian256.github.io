@@ -40,7 +40,7 @@ I am (<span lang="zh">钱隆</span>) a Ph.D student at the Department of Compute
 
 #### Internship
 * Data Analyst and Consultant, Accenture Beijing, 2015
-* Intuitive Surgical Inc, Sunnyvale, 2017 Upcoming
+* Intuitive Surgical Inc, Sunnyvale, 2017
 * Google Inc, Mountain View, 2017 Upcoming
 
 
