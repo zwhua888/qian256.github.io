@@ -6,13 +6,13 @@ tags: augmented-reality hololens pupil-labs
 ---
 
 
-I have worked with many augmented reality platforms, especially [head-mounted displays (HMD)](https://en.wikipedia.org/wiki/Head-mounted_display).
+I have worked with many augmented reality platforms, especially [Head-Mounted Displays (HMD)](https://en.wikipedia.org/wiki/Head-mounted_display).
 
-In this post, I would like to share my experiment of developing or playing with these devices. Hopefully, this will help you to make the correct decision about what HMD to choose for your augmented reality application. 
+In this post, I would like to share my experience of developing or playing with these devices. Hopefully, this will help you to make the correct decision about which HMD to choose for your specific application. 
 
 
 
-### List of Devices
+### Table of Content
 
 - Epson Moverio BT-200
 - Epson Moverio BT-300
