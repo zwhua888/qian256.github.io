@@ -104,8 +104,13 @@ private static Stream OpenFileForWrite(string folderName, string fileName) {
 }
 ```
 
+
 Other format of file can be naturally supported as well: YAML, XML, JSON.
 
+
+### Further Reading
+
+Apart from the `RoamingState` folder on HoloLens Device Portal, some other folders are accessible as well, for example, `TempState` and `LocalState` etc. More information can be found on [UWP API page](https://docs.microsoft.com/en-us/uwp/api/Windows.Storage.ApplicationData) of `Windows.Storage.ApplicationData`.
 
 
 Thanks for reading!  <i class="em em-lq"></i>
