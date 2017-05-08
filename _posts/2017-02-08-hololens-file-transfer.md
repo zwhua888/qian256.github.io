@@ -40,8 +40,8 @@ The sample script for reading file is:
 
 ```csharp
 public void ReadString() {
-#if !UNITY_EDITOR && UNITY_METRO
   string s;
+#if !UNITY_EDITOR && UNITY_METRO
   try {
     using (Stream stream = OpenFileForRead(ApplicationData.Current.RoamingFolder.Path, "filename.txt")) {
       byte[] data = new byte[stream.Length];
@@ -104,8 +104,19 @@ private static Stream OpenFileForWrite(string folderName, string fileName) {
 }
 ```
 
+In the above sample code, the file that is queried must exist. In the case when you want to list existing files in a given folder, it is as simple as:
 
-Other format of file can be naturally supported as well: YAML, XML, JSON.
+```csharp
+StorageFolder folder = await StorageFolder.GetFolderFromPathAsync(folderName);
+foreach (StorageFile f in allFiles) {
+  Debug.Log(TAG + ": found file " + f.Name + ", " + f.DateCreated);
+}
+```
+
+The above code snippets are tested with the following configurations:
+
+* **Unity 5.5 + Visual Studio 2015**
+* **Unity 5.6 + Visual Studio 2017**
 
 
 ### Further Reading
