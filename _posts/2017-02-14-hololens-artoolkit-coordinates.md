@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Coorindate Systems in HoloLensARToolKit
-description: Documentation of project HoloLensARToolKit, the coordinate systems used in HoloLensARToolKit, including the difference between unity3d coordinates, ARToolKit coordinates and HoloLensARToolKit coordinates.
+title: Coorindate Systems in HoloLensARToolKit v0.1
+description: Documentation of project HoloLensARToolKit v0.1, the coordinate systems used in HoloLensARToolKit, including the difference between unity3d coordinates, ARToolKit coordinates and HoloLensARToolKit coordinates.
 tags: hololens hololens-artoolkit artoolkit unity3d marker-tracking coordinate-system documentation augmented-reality
 ---
 
-This post is part of documentation of **[HoloLensARToolKit](https://github.com/qian256/HoloLensARToolKit)**.
+This post is part of documentation of **[HoloLensARToolKit](https://github.com/qian256/HoloLensARToolKit)**, version **[v0.1](https://github.com/qian256/HoloLensARToolKit/releases/tag/v0.1)**.
 
 ### Coordinate System of Unity3D
 [Unity3D](https://unity3d.com/) uses **left-hand coordinate systems** to define transformations. Yes, it is.

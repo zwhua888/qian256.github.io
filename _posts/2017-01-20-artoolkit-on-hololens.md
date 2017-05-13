@@ -23,7 +23,7 @@ Since [ARToolKit](http://artoolkit.org/) has served AR/VR for more than 10 years
 * Universal Windows has a whole different set of tools and run-time libraries. The dependencies of existing ARToolKit does not exist on UWP, such as pthreads, video libraries, opencv.
 * ARToolKit is written in native C/C++ code, and an additional wrapper is needed for development on Unity, which is recommended for HoloLens. (If you are not good at Direct3D, and Windows App)
 
-**Luckily, after spending about a week on this, I successfully get some pieces of code written, and actually make ARToolKit runs on HoloLens, at about 40 fps.**
+**Luckily, after spending some time on this, I successfully get some pieces of code written, and actually make ARToolKit runs on HoloLens.**
 
 The repository is called **[HoloLensARToolKit](https://github.com/qian256/HoloLensARToolKit)** on Github.
 
