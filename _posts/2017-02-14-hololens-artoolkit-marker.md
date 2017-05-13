@@ -90,7 +90,7 @@ If the marker type is `single`, `single_barcode` or `single_buffer`, then ARTool
 
 ### Finally
 
-You can access more articles describing the implementation details of **[HoloLensARToolKit](https://github.com/qian256/HoloLensARToolKit)** in my blog, simply clicking on the tag: <a class="no-underline" href="http://longqian.me/tag/hololens/"><code class="highligher-rouge"><nobr>hololens-artoolkit</nobr></code></a>.
+You can access more articles describing the implementation details of **[HoloLensARToolKit](https://github.com/qian256/HoloLensARToolKit)** in my blog, simply clicking on the tag: <a class="no-underline" href="http://longqian.me/tag/hololens-artoolkit/"><code class="highligher-rouge"><nobr>hololens-artoolkit</nobr></code></a>.
 
 
 
