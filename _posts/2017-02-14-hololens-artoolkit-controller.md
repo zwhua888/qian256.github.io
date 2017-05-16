@@ -9,7 +9,7 @@ This post is part of documentation of **[HoloLensARToolKit](https://github.com/q
 
 ### ARUWPController
 
-`ARUWPController.cs` is one of the main scripts used in **[HoloLensARToolKit](https://github.com/qian256/HoloLensARToolKit)**. In this post, the options of this script is listed and discussed, along with common usecases.
+`ARUWPController.cs` is one of the main scripts used in **[HoloLensARToolKit](https://github.com/qian256/HoloLensARToolKit)**. In this post, the options of this script are listed and discussed, along with common usecases.
 
 > Each Unity project using HoloLensARToolKit package **must and must only have one** ARUWPController component.
 

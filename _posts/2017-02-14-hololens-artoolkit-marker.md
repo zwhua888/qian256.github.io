@@ -9,7 +9,7 @@ This post is part of documentation of **[HoloLensARToolKit](https://github.com/q
 
 ### ARUWPMarker
 
-`ARUWPMarker.cs` is one of the main scripts used in **[HoloLensARToolKit](https://github.com/qian256/HoloLensARToolKit)**. In this post, the options of this script is listed and discussed, along with common usecases.
+`ARUWPMarker.cs` is one of the main scripts used in **[HoloLensARToolKit](https://github.com/qian256/HoloLensARToolKit)**. In this post, the options of this script are listed and discussed, along with common usecases.
 
 > In Unity project using HoloLensARToolKit package, each actual marker must have one corresponding ARUWPMarker script.
 

@@ -7,15 +7,6 @@ tags: unity3d hololens hololens-artoolkit artoolkit vuforia marker-tracking augm
 
 [HoloLens](https://www.microsoft.com/microsoft-hololens/en-us) is fascinating in terms of holographic display and in-room localization, but the capability of the front-facing camera ([locatable camera](https://developer.microsoft.com/en-us/windows/holographic/locatable_camera)) is not fully utilized for potential augmented reality applications.
 
-### Why not Vuforia?
-
-[Vuforia](https://vuforia.com/) released it support for HoloLens several month ago with Vuforia 6. Vuforia has its feature-based tracking, extended tracking mode, simple 3D model tracking, etc. However, there is several potential problems with Vuforia, from a developer point of view.
-
-* Limited update rate, not intended for fast moving object.
-* Lack of accuracy.
-* Closed-source software, you have to get your finger-crossed for everything.
-* Is charged.
-
 ### ARToolKit
 
 Since [ARToolKit](http://artoolkit.org/) has served AR/VR for more than 10 years, and it is open-source, it would be nice to have it running on HoloLens. The obstacles towards this goal are quite clear as well:
@@ -28,6 +19,8 @@ Since [ARToolKit](http://artoolkit.org/) has served AR/VR for more than 10 years
 The repository is called **[HoloLensARToolKit](https://github.com/qian256/HoloLensARToolKit)** on Github.
 
 ### Demos
+
+The following videos and screenshots are taken with HoloLensARToolKit [v0.1](https://github.com/qian256/HoloLensARToolKit/releases/tag/v0.1).
 
 #### Samples of HoloLensARToolKit
 
@@ -43,7 +36,7 @@ There are three samples of HoloLensARToolKit, each representing a certain kind o
 <iframe width="100%" style="height:24rem" src="https://www.youtube.com/embed/cMzNyJkr3X0" frameborder="0" allowfullscreen></iframe>
 </p>
 
-This video is taken on HoloLens Device Portal, also known as **Mixed Reality Capture**. You might have noticed the lag between the video that is captured and update in the rendering. Because the tracking is able to complete within one rendering cycle, the lag is **probably** due to the post-rendering 3D warping of HoloLens.
+This video is taken on HoloLens Device Portal, also known as **Mixed Reality Capture**. You might have noticed that there is still some lag between the video that is captured and update in the rendering.
 
 #### More Screenshots
 
