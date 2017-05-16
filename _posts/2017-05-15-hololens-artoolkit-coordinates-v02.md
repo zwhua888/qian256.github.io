@@ -70,10 +70,13 @@ Multi-matrix marker is useful for robust tracking, thus is much more useful for 
 For example, for a **multi-barcode-4x3** configuration, the coordinate system of the multi-marker looks like this:
 
 <p class="full-width">
-<img src="http://longqian.me/public/image/multi-coord.png" width="70%" align="right"/>
+<img src="http://longqian.me/public/image/multi-coord-v02.png" width="70%" align="right"/>
 </p>
 
-> In HoloLensARToolKit v0.1, users need to adjust the multi-marker configuration file provided by ARToolKit, like [this](http://longqian.me/2017/02/14/hololens-artoolkit-coordinates/), to make it work with HoloLensARToolKit. Starting from v0.2, this step is not needed. The multi marker configuration file of ARToolKit and HoloLensARToolKit is **EXACTLY SAME**, which means, the description of multi marker is actually using **right-hand coordinate system**.
+
+### Marker Configuration File
+
+In HoloLensARToolKit v0.1, users need to adjust the multi-marker configuration file provided by ARToolKit, like [this](http://longqian.me/2017/02/14/hololens-artoolkit-coordinates/), to make it work with HoloLensARToolKit. Starting from v0.2, this step is not needed. The multi marker configuration file of ARToolKit and HoloLensARToolKit is **EXACTLY SAME**, which means, the description of multi marker is actually using **right-hand coordinate system**.
 
 
 ### Finally
