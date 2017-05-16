@@ -5,7 +5,7 @@ description: Documentation of project HoloLensARToolKit v0.2, the ARUWPVideo scr
 tags: hololens hololens-artoolkit artoolkit unity3d marker-tracking documentation augmented-reality
 ---
 
-This post is part of documentation of **[HoloLensARToolKit](https://github.com/qian256/HoloLensARToolKit)**, version **[v0.1](https://github.com/qian256/HoloLensARToolKit/releases/tag/v0.2)**.
+This post is part of documentation of **[HoloLensARToolKit](https://github.com/qian256/HoloLensARToolKit)**, version **[v0.2](https://github.com/qian256/HoloLensARToolKit/releases/tag/v0.2)**.
 
 ### ARUWPVideo
 
@@ -13,7 +13,7 @@ This post is part of documentation of **[HoloLensARToolKit](https://github.com/q
 
 > Each Unity project using HoloLensARToolKit package **must and must only have one** ARUWPVideo component.
 
-ARUWPVideo is unique to HoloLensARToolKit v0.2. In v0.1, the video pipeline is embedded in `ARUWPController.cs`, which inevitably made video capture and rendering in the same thread. Starting v0.2, the video pipeline uses APIs directly from [Windows.Media.Capture](https://docs.microsoft.com/en-us/uwp/api/windows.media.capture.mediacapture), and is asynchronous with rendering and tracking.
+ARUWPVideo is unique to HoloLensARToolKit v0.2. In previous version: v0.1, the video pipeline is embedded in `ARUWPController.cs`, which inevitably made video capture and rendering in the same thread. Starting v0.2, the video pipeline uses APIs directly from [Windows.Media.Capture](https://docs.microsoft.com/en-us/uwp/api/windows.media.capture.mediacapture), and is asynchronous with rendering and tracking.
 
 When ARUWPVideo script is attached to some Unity GameObject, its inspector window looks like this:
 

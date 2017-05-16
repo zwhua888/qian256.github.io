@@ -5,8 +5,7 @@ description: Documentation of project HoloLensARToolKit v0.2, the ARUWPMarker sc
 tags: hololens hololens-artoolkit artoolkit unity3d marker-tracking documentation augmented-reality
 ---
 
-This post is part of documentation of **[HoloLensARToolKit](https://github.com/qian256/HoloLensARToolKit)**, version **[v0.1](https://github.com/qian256/HoloLensARToolKit/releases/tag/v0.2)**.
-
+This post is part of documentation of **[HoloLensARToolKit](https://github.com/qian256/HoloLensARToolKit)**, version **[v0.2](https://github.com/qian256/HoloLensARToolKit/releases/tag/v0.2)**.
 The ARUWPMarker options documentation for [v0.1](https://github.com/qian256/HoloLensARToolKit/releases/tag/v0.1) is [here](http://longqian.me/2017/02/14/hololens-artoolkit-marker/).
 
 ### ARUWPMarker

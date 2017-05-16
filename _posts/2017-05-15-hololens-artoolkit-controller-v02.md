@@ -6,7 +6,6 @@ tags: hololens hololens-artoolkit artoolkit unity3d marker-tracking documentatio
 ---
 
 This post is part of documentation of **[HoloLensARToolKit](https://github.com/qian256/HoloLensARToolKit)**, version **[v0.2](https://github.com/qian256/HoloLensARToolKit/releases/tag/v0.2)**. 
-
 The ARUWPController options documentation for [v0.1](https://github.com/qian256/HoloLensARToolKit/releases/tag/v0.1) is [here](http://longqian.me/2017/02/14/hololens-artoolkit-controller/).
 
 ### ARUWPController
