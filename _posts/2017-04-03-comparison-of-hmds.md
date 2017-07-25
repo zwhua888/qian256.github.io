@@ -2,7 +2,7 @@
 layout: post
 title: Hands on Head-Mounted Displays
 description: I have worked with many augmented reality platforms, especially head-mounted displays (HMD). In this post, I would like to share the experience of developing or playing with these head-mounted displays, and hopefully the comparison help you to choose the correct head-mounted display for your applications.
-tags: augmented-reality hololens pupil-labs
+tags: augmented-reality hololens pupil-labs virtual-reality
 ---
 
 

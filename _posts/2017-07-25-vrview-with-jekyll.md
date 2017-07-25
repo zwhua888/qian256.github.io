@@ -1,0 +1,121 @@
+---
+layout: post
+title: Google VRView with Jekyll 
+description: Google VR view allows developer to host VR content very easily with various platforms, including Android, iOS and Web. In this post, I embedded some sample VR view widgets on my Jekyll page hosted on Github. All you need is a Google Cardboard to experience the 3D immersive world.
+tags: vrview jekyll blog virtual-reality google-cardboard github-page
+---
+
+<style>
+.highlight-left {margin-left: 0}
+</style>
+
+[Google VR view](https://developers.google.com/vr/concepts/vrview) allows developer to host VR content very easily with various platforms, including Android, iOS and Web. The content being hosted can be image or video, mono or stereo. Developer is also able to embed hotspot to allow user interaction with the VR content. More importantly, the [VR view repository](https://github.com/googlevr/vrview) is open-source on Github.
+
+In this post, I embedded some sample VR view widgets on my Jekyll page hosted on Github. All you need is a [Google Cardboard](https://vr.google.com/cardboard/) to experience the 3D immersive world!
+
+## Showcase
+
+### Mono 360 Image
+
+<div id="vrview-image-mono"></div>
+
+Image courtesy: [Google VRView example](http://googlevr.github.io/vrview/examples/gallery/index.html)
+
+### Stereo 360 Image
+
+<div id="vrview-image-stereo"></div>
+
+Image courtesy: [Google VRView webpage](https://developers.google.com/vr/concepts/vrview)
+
+### Stereo 360 Video
+
+<div id="vrview-video-stereo"></div>
+
+Video courtesy: [Google VRView example](http://googlevr.github.io/vrview/examples/video/index.html)
+
+Clicking the Cardboard button on the image and video frame will redirect you to the Cardboard viewing mode.
+
+## VRView on Jekyll Blog
+
+Enabling VRView content on your Jekyll blog is very straight-forward.
+
+**1. Build a local version of VRView**
+
+Clone the repository of [Google VRView](https://github.com/googlevr/vrview), and compile as instructed.
+
+**2. Copy the vrview folder into your jekyll folder**
+
+**3. Declare the place holder for vrview content in your blog file**
+
+{% highlight html %}
+<div id="vrview-image-mono"></div>
+{% endhighlight %}{: .highlight-left }
+
+**4. Add scripts to load desired content into the vrview widget**
+
+{% highlight javascript %}
+<script>
+window.addEventListener('load', onVrViewLoad);
+function onVrViewLoad() {
+  var vrView1 = new VRView.Player('#vrview-image-mono', {
+    image: '/public/image/vrview-taj-mahal.jpg',
+    is_stereo: false,
+    width: '100%',
+    height: 360
+  });
+}
+</script>
+{% endhighlight %}{: .highlight-left }
+
+The VRView Player class has some parameters that you can play with, for example, video looping, stereo mode control. The detailed list can be found on [Google VR view website](https://developers.google.com/vr/concepts/vrview-web).
+
+**5. Build and experience!**
+
+Because Github page allows [CORS (Cross-Origin Resource Sharing)](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing), the content you upload to your Github repo can be accessed, for example, the video in vrview.
+
+## Another Trick
+
+VRView is able to handle requests as well.
+
+Try these links:
+
+[http://longqian.me/vrview?image=public/image/vrview-chichen-itza.jpg](http://longqian.me/vrview?image=public/image/vrview-chichen-itza.jpg)
+
+Player parameter can be appended to the URI:
+
+[http://longqian.me/vrview?video=public/video/congo_2048.mp4&is_stereo=true](http://longqian.me/vrview?video=public/video/congo_2048.mp4&is_stereo=true)
+
+
+Bloging should be **COOL** in the VR era. Thanks for reading! <img class="inline" src="/public/LQ144x144.png" alt="LQ" style="width:1.5rem;height:1.5rem;" />
+
+
+
+<script src="/vrview/build/three.min.js"></script>
+<script src="/vrview/build/vrview.min.js"></script>
+<script>
+window.addEventListener('load', onVrViewLoad)
+function onVrViewLoad() {
+  var vrView1 = new VRView.Player('#vrview-image-mono', {
+    image: '/public/image/vrview-taj-mahal.jpg',
+    is_stereo: false,
+    width: '100%',
+    height: 360
+  });
+
+  var vrView2 = new VRView.Player('#vrview-image-stereo', {
+    image: '/public/image/vrview-coral.jpg',
+    is_stereo: true,
+    width: '100%',
+    height: 360
+  });
+
+  var vrView3 = new VRView.Player('#vrview-video-stereo', {
+    video: '/public/video/congo_2048.mp4',
+    is_stereo: true,
+    width: '100%',
+    height: 360,
+    loop: true
+  });
+}
+</script>
+

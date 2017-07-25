@@ -2,7 +2,7 @@
 layout: post
 title: IEEEVR 2017 Highlight
 description: This blog summarizes the highlight of IEEE Virtual Reality 2017 conference held at Los Angeles, California. We presented two posters at the conference. The keynotes, interesting papers, posters, research demos, industrial demos seen by me are summarized in this post.
-tags: ieeevr conference augmented-reality
+tags: ieeevr conference virtual-reality augmented-reality
 ---
 
 <p class="full-width">

@@ -2,7 +2,7 @@
 layout: post
 title: Vergence-Accommodation Conflict (VAC)
 description: Vergence and accommodation are two types of stereo cues. The conflict between them causes visual fatigue and motion sickness as well. This blog gives you some facts and some trends.
-tags: vergence-accommodation-conflict motion-sickness optics
+tags: vergence-accommodation-conflict motion-sickness optics virtual-reality
 ---
 
 [Vergence-accommodation conflict (VAC)](https://vrwiki.wikispaces.com/Vergence%E2%80%93accommodation+conflict) is a major problem for the use of VR / AR head-mounted displays (HMD).
