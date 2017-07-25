@@ -93,22 +93,28 @@ Bloging should be **COOL** in the VR era. Thanks for reading! <img class="inline
 <script src="/vrview/build/three.min.js"></script>
 <script src="/vrview/build/vrview.min.js"></script>
 <script>
-window.addEventListener('load', onVrViewLoad)
-function onVrViewLoad() {
+window.addEventListener('load', onVrViewLoad1)
+window.addEventListener('load', onVrViewLoad2)
+window.addEventListener('load', onVrViewLoad3)
+function onVrViewLoad1() {
   var vrView1 = new VRView.Player('#vrview-image-mono', {
     image: '/public/image/vrview-taj-mahal.jpg',
     is_stereo: false,
     width: '100%',
     height: 360
   });
+}
 
+function onVrViewLoad2() {
   var vrView2 = new VRView.Player('#vrview-image-stereo', {
     image: '/public/image/vrview-coral.jpg',
     is_stereo: true,
     width: '100%',
     height: 360
   });
+}
 
+function onVrViewLoad3() {
   var vrView3 = new VRView.Player('#vrview-video-stereo', {
     video: '/public/video/congo_2048.mp4',
     is_stereo: true,
@@ -117,5 +123,6 @@ function onVrViewLoad() {
     loop: true
   });
 }
+
 </script>
 
