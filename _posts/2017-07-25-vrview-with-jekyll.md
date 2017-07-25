@@ -27,12 +27,6 @@ Image courtesy: [Google VRView example](http://googlevr.github.io/vrview/example
 
 Image courtesy: [Google VRView webpage](https://developers.google.com/vr/concepts/vrview)
 
-### Stereo 360 Video
-
-<div id="vrview-video-stereo"></div>
-
-Video courtesy: [Google VRView example](http://googlevr.github.io/vrview/examples/video/index.html)
-
 Clicking the Cardboard button on the image and video frame will redirect you to the Cardboard viewing mode.
 
 ## VRView on Jekyll Blog
@@ -72,6 +66,14 @@ The VRView Player class has some parameters that you can play with, for example,
 **5. Build and experience!**
 
 Because Github page allows [CORS (Cross-Origin Resource Sharing)](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing), the content you upload to your Github repo can be accessed, for example, the video in vrview.
+
+## How about Video?
+
+A little bit tricky! **Sometimes it does not play.**
+
+<div id="vrview-video-stereo"></div>
+
+Video courtesy: [Google VRView example](http://googlevr.github.io/vrview/examples/video/index.html)
 
 ## Another Trick
 
