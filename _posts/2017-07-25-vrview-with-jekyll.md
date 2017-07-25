@@ -120,6 +120,7 @@ function onVrViewLoad3() {
     is_stereo: true,
     width: '100%',
     height: 360,
+    default_yaw: 180,
     loop: true
   });
 }
