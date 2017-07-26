@@ -27,7 +27,9 @@ Image courtesy: [Google VRView example](http://googlevr.github.io/vrview/example
 
 Image courtesy: [Google VRView webpage](https://developers.google.com/vr/concepts/vrview)
 
-Clicking the Cardboard button on the image and video frame will redirect you to the Cardboard viewing mode.
+If you are using a browser on **PC**, the mono and stereo 360 images are rendered in the same way. Differences come when you are using a browser on a **phone**, and by clicking the Cardboard button on the widget. The script will redirect you to the Cardboard viewing mode.
+
+Mono 360 image is rendered on a sphere, and pixel will be placed at the same focal distance. With stereo 3D image, the [vergence](https://en.wikipedia.org/wiki/Vergence) of your eye will give you binocular vision.
 
 ## VRView on Jekyll Blog
 
@@ -79,16 +81,23 @@ Video courtesy: [Google VRView example](http://googlevr.github.io/vrview/example
 
 VRView is able to handle requests as well.
 
-Try these links:
+### Image Request
 
-[http://longqian.me/vrview?image=public/image/vrview-chichen-itza.jpg](http://longqian.me/vrview?image=public/image/vrview-chichen-itza.jpg)
+This is another mono 360 image, available with vrview examples:
 
-Player parameter can be appended to the URI:
+[http://longqian.me/vrview?image=../public/image/vrview-chichen-itza.jpg](http://longqian.me/vrview?image=../public/image/vrview-chichen-itza.jpg)
 
-[http://longqian.me/vrview?video=public/video/congo_2048.mp4&is_stereo=true](http://longqian.me/vrview?video=public/video/congo_2048.mp4&is_stereo=true)
+### Video Request
 
+The following link will play the same video as in the previous section.
 
-Bloging should be **COOL** in the VR era. Thanks for reading! <img class="inline" src="/public/LQ144x144.png" alt="LQ" style="width:1.5rem;height:1.5rem;" />
+[http://longqian.me/vrview?video=../public/video/congo_2048.mp4&is_stereo=true](http://longqian.me/vrview?video=../public/video/congo_2048.mp4&is_stereo=true)
+
+Player parameter can be appended to the URI with **&** symbol, and multiple parameters can be concatenated.
+
+Bloging should be **COOL** in the VR era. 
+
+Thanks for reading! <img class="inline" src="/public/LQ144x144.png" alt="LQ" style="width:1.5rem;height:1.5rem;" />
 
 
 
