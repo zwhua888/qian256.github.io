@@ -133,7 +133,7 @@ The above is the format of all tag pages. It displays all the posts that has the
 
 #### 5.2. Trigger the building of tag pages
 
-In order to tell Github Jekyll engine to create a tag page, we need a markdown file specifying the specific tag to dipslay and the above tagpage format.
+In order to tell Github Jekyll engine to create a tag page, we need a markdown file specifying the specific tag to display and the above tagpage format.
 
 Create a folder called `tag` in the root folder, and create a markdown file `hololens.md` like this:
 
@@ -180,7 +180,7 @@ What you need to do is to add another html page at `_includes/archive.html`:
 
 This script fetches `site.tags` and sort them by the size of its referenced posts. The sorted list is in `sortedtemptags`. And it is iterated to be visualized. I am inspired by this [stackoverflow answer](http://stackoverflow.com/questions/13025281/how-to-get-a-sorted-tags-list-in-jekyll).
 
-You can all the following line to anywhere you want to display the tag cloud:
+You can add the following line to anywhere you want to display the tag cloud:
 {% highlight liquid %}{% raw %}
 {% include archive.html %}
 {% endraw %}{% endhighlight %}{: .highlight-left }
