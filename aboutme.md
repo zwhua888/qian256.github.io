@@ -18,7 +18,6 @@ I am (<span lang="zh">钱隆</span>) a Ph.D student at the Department of Compute
 
 
 ### Publication
-* **Long Qian**, Ehsan Azimi, Peter Kazanzides and Nassir Navab. *Comprehensive Tracker Based Display Calibration for Holographic Optical See-Through Head-Mounted Display*. **Submitted** to 2017 ISMAR [@arxiv](https://arxiv.org/abs/1703.05834)
 * **Long Qian**, Alexander Barthel, Alex Johnson, Greg Osgood, Peter Kazanzides, Nassir Navab and Bernhard Fuerst. *Comparison of Optical See-Through Head-Mounted Displays for Surgical Interventions with Object-Anchored 2D-Display*. 2017 IPCAI [@Paper](https://link.springer.com/article/10.1007/s11548-017-1564-y)
 * Ehsan Azimi, **Long Qian**, Peter Kazanzides and Nassir Navab. *Robust Optical See-Through Head-Mounted Display Calibration:Taking Anisotropic Nature of User Interaction Errors into Account*. 2017 IEEE VR [@Paper](http://ieeexplore.ieee.org/document/7892255/)
 * Jianren Wang, **Long Qian**, Ehsan Azimi and Peter Kazanzides. *Prioritization and Static Error Compensation for Multi-camera Collaborative Tracking in Augmented Reality*. 2017 IEEE VR [@Paper](http://ieeexplore.ieee.org/document/7892313/)
@@ -40,8 +39,8 @@ I am (<span lang="zh">钱隆</span>) a Ph.D student at the Department of Compute
 
 #### Internship
 * Data Analyst and Consultant, Accenture Beijing, 2015
-* Applied Research Engineer, Intuitive Surgical Inc, Sunnyvale, 2017
-* Google Inc, Mountain View, 2017 Upcoming
+* Applied Research Engineer, [Intuitive Surgical](https://www.intuitivesurgical.com/), Sunnyvale, 2017
+* Software Engineer, [Google Daydream](https://vr.google.com/daydream/), Mountain View, 2017
 
 
 ### Other Activities
